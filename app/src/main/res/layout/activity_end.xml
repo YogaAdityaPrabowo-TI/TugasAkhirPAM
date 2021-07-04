@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alhamdullilah"
+    tools:context=".End">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="206dp"
+        android:layout_height="41dp"
+        android:text="Shadaqah Online"
+        android:textColor="#656565"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="240dp"
+        android:layout_height="51dp"
+        android:text="TERIMA KASIH "
+        android:textColor="#656565"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="347dp"
+        android:layout_height="59dp"
+        android:text="TERIMAKASIH TELAH MENGGUNAKAN APLIKASI SHADAQAH ONLINE DAN PERCAYA DENGAN KAMI"
+        android:textColor="#656565"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <Button
+        android:id="@+id/btnAkhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELESAI"
+        app:backgroundTint="#0F886C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.458" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="271dp"
+        android:layout_height="63dp"
+        android:text="Alhamdulillah Shadaqah Anda Berhasil Diproses"
+        android:textColor="#656565"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

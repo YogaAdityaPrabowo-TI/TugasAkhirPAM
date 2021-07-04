@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TugasAkhir</string>
+    <string name="UserName">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Masuk</string>
+    <string name="BtnDaftar">daftar?</string>
+    <string name="Nama">Masukan Nama Anda</string>
+    <string name="Alamat">Masukan Alamat Anda</string>
+    <string name="NamaLembaga">Nama Lembaga Anda</string>
+    <string name="AlamatLembaga">Alamat Lembaga Anda</string>
+    <string name="EmailLembaga">Email Lembaga Anda</string>
+    <string name="Email">Masukan Email Anda</string>
+    <string name="Password1">Masukan Password Anda</string>
+    <string name="UlangPassword">Masukan Ulang Password Anda</string>
+    <string name="nmusr"> Masukan Nama User </string>
+    <string name="nohp">Masukan No Hp</string>
+    <string name="nmpuser">Jumlah Nominal Shadaqah</string>
+    <string name="btnlembaga">daftar lembaga</string>
+</resources>
